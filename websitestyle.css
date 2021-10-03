@@ -1,0 +1,96 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 0 repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .navigation { grid-area: 1 / 1 / 2 / 6;
+    background-color: beige;
+    height: 250px;
+    width: 100%;
+    }
+    
+    .welcomebox { grid-area: 2 / 1 / 4 / 3;
+        background-color: beige;
+    }
+    .video { grid-area: 4 / 1 / 6 / 3;
+        background-color: beige;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .mypicture { grid-area: 2 / 4 / 4 / 6;
+        background-color:beige ;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    .bio { grid-area: 4 / 4 / 6 / 6;
+        background-color:beige;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+    #nav-buttons {
+        background-color:#eeeeee;
+        display:inline;
+        font-size: larger;      
+    }
+    #ul_top_hypers li{
+        display: inline;
+    }
+
+    .parentprojects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 0 repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        
+        .div2 { 
+            grid-area: 2 / 1 / 3 / 3; 
+            background-color: green;
+            margin-left: auto;
+            margin-right: auto;
+
+           
+        }
+        .div3 { 
+            grid-area: 2 / 4 / 3 / 6; 
+            background-color: red;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .div4 { 
+            grid-area: 3 / 1 / 4 / 3; 
+            background-color: blue;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .div5 { 
+            grid-area: 3 / 4 / 4 / 6; 
+            background-color: purple;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+        .div6 { 
+            grid-area: 4 / 1 / 5 / 3; 
+            background-color: rgb(19, 84, 122);
+            margin-left: auto;
+            margin-right: auto; 
+        }
+        .div7 { 
+            grid-area: 4 / 4 / 5 / 6; 
+            background-color: rgb(180, 176, 159);
+            margin-left: auto;
+            margin-right: auto;
+        }
